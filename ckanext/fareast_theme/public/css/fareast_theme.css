@@ -1,0 +1,96 @@
+html {
+    background: url(/image/mbg.png) repeat center top;
+}
+
+body {
+    min-height: 100%;
+    height: auto !important;
+    position: relative;
+    margin: 0px auto;
+    background: url(/image/mbg_t.png) repeat-x center top;
+}
+
+.header-wrap {
+    background: url(/image/hbg.png) no-repeat center top;
+}
+
+.account-masthead {
+    background: none;
+    min-height: 47px;
+    padding-top: 14px;
+}
+
+.account-masthead .account ul li {
+    border-left-color: #ECECEC;
+}
+
+.account-masthead .account ul li:first-child {
+    border-left: 0;
+}
+
+.account-masthead .account ul li a {
+    color: #333;
+}
+
+.masthead {
+    background: none;
+    min-height: 183px;
+}
+
+.logo {
+    background: url(/image/logo.png) no-repeat left top;
+    display: block;
+    width: 146px;
+    height: 175px;
+    margin-top: -61px;
+    float: left;
+}
+
+.logo img {
+    display: none;
+}
+
+.masthead .nav-collapse {
+    float: none;
+    margin-top: 129px;
+}
+
+.masthead .site-search {
+    margin: 6px 8px 2px 0;
+    float: right;
+}
+
+.masthead .title {
+    float: right;
+    font-size: 24px;
+    color: #ffffff;
+    text-shadow: 0px 1px 0px #09679d;
+    float: left;
+    margin-left: 40px;
+    padding: 34px 0 0 0;
+}
+
+.masthead .title span {
+    padding: 0;
+    margin: 0;
+    font-size: 19px;
+    color: #d3f0ff;
+    font-weight: normal;
+    display: block;
+}
+
+.hero {
+    background: none;
+}
+
+[role=main] {
+    background: url(/image/wbg.png) repeat-y top center;
+}
+
+.site-footer {
+    background: url(/image/fbgimg.png) no-repeat top center,
+        url(/image/fbg.png) repeat-y top center;
+    padding: 73px 0 50px 0;
+}
+
+
