@@ -94,3 +94,10 @@ body {
 }
 
 
+.homepage .module-search .module-content {
+    background: #2b8cbe;
+}
+
+.homepage .module-search .tags {
+    background: #1e71a0;
+}
