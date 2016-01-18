@@ -101,3 +101,10 @@ body {
     background: #1e71a0;
 }
 
+.attribution .nextgis-footer-logo {
+    display: block;
+    height: 16px;
+    margin-top: 10px;
+    background: url(/image/nextgis_logo.svg) no-repeat top left;
+    background-size: contain;
+}
