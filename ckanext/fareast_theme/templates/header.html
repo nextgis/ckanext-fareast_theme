@@ -1,7 +1,13 @@
 {% ckan_extends %}
 
 {% block header_logo %}
-    {{ super() }}
-    <h1 class="title">Официальный сайт Администрации Приморского края <span>и органов исполнительной власти Приморского края</span></h1>
+  {% if g.site_logo %}
+    <a class="logo" href="{{ h.url_for('home') }}"></a>
+  {% else %}
+    <h1>
+      <a href="{{ h.url_for('home') }}">{{ g.site_title }}</a>
+    </h1>
+    {% if g.site_description %}<h2>{{ g.site_description }}</h2>{% endif %}
+  {% endif %}
+  <h1 class="title">Официальный сайт Администрации Приморского края <span>и органов исполнительной власти Приморского края</span></h1>
 {% endblock %}
-
